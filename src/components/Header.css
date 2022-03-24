@@ -1,0 +1,47 @@
+
+
+.team{
+    margin-top: 2%;
+    width: 150px;
+    height: 100px;
+    
+    margin-left: 30%;
+ 
+}
+
+
+.body-text1{
+    margin-top: 4%;
+    color: red;
+    margin-right: 46%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    font-size:220%;
+
+}
+
+
+
+@media screen and (min-width: 987px) and (max-width: 1350px) {
+    .team{
+        margin-left: 25%;
+    }
+  }
+
+  @media screen and (min-width: 737px) and (max-width: 987px) {
+    .team{
+        margin-left: 15%;
+    }
+  }
+  
+
+  @media screen and (max-width: 737px) {
+    .body-text1{
+        float: none;
+        margin-left: 35%;
+    }
+    .team{
+        margin-left: -5%;
+    }
+  }
