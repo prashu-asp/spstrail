@@ -1,0 +1,63 @@
+.domain-name {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding-bottom: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    flex-direction: row;
+    align-items: center;
+  }
+  .domain-popup {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .domain-name,
+  .domain-popup h1 dt {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .domain-name,
+  .domain-popup img dd {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    align-content: center;
+  }
+  header {
+    align-items: center;
+    color: rgb(224, 33, 33);
+
+  }
+  .inner-domain-popup {
+    position: relative;
+    padding: 32px;
+    width: 100;
+    max-width: px;
+    background-color: burlywood;
+  }
+  .inner-domain-popup .popup-close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .nav-domain{
+    padding-top: 600px;
+    height: 100px;
+    background-image: url("https://chennai.vit.ac.in/wp-content/uploads/2020/01/sense_banner.jpg");
+    height: 100px;
+    width: 100;
+  }
